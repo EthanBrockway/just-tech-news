@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const { differenceBy } = require("lodash");
 const { User } = require("../../models");
 
 router.get("/", (req, res) => {
